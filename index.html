@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style type="text/css">
+		.mySlides {display:none;}
+	</style>
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"><!--Using W3schools css libary-->
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The First</title>
+</head>	
+<body> 	
+<div id="main">
+	<div class="container">
+		<div id="header">
+			<div class="w3-container w3-black">
+				<a href="http://firststep.x10host.com/" style="text-decoration: none;"><h1>The First</h1></a>
+			</div>
+			<ul class="w3-navbar navi">
+        <li><a href="http://firststep.x10host.com/">Home</a></li>
+        <li><a href="http://firststep.x10host.com/about">About</a></li>
+        <li><a href="http://firststep.x10host.com/portfolio">Portfolio</a></li>
+        <li><a href="http://firststep.x10host.com/contact">Contact</a></li>
+    		</ul>
+    	</div><!--end header -->
+     	 	
+    	<div class="w3-content w3-display-container">
+			<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+			<a class="w3-btn-floating w3-display-right" onclick="plusDivs(+1)">&#10095;</a>
+    		<img class="mySlides" src="Back.jpg" style="width:980px; line-height:1.5; ">
+ 	 	 	<img class="mySlides" src="Mountain.jpg" style="width: 980px; line-height:1.5;">
+ 		 	<img class="mySlides" src="Highway.jpg" style="width:980px; line-height:1.5; ">
+ 		 	<!--Images courtesy of Unsplash.com-->
+    	</div><!--end content-->
+    </div><!--end container-->
+</div><!--end main-->
+     
+    <div class="w3-container w3-black footer">
+    <footer><br>© Copyright 2017 <br> All Rights Reserved</footer>
+    </div><!--end footer--><!--Made By: Afiq-->
+
+<script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+	
+</body>
+</html>
