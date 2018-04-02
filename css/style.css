@@ -1,8 +1,110 @@
-body{
-	background-color: #E1E2E1
+body {
+  background-color: #dfdfdf;
+  /* background-color: rgb(0, 42, 51); */
 }
-img{
-	padding: 80px;
-	width: 33.3%;
-	height: 100%;
+
+#home {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../images/backgroundImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.navbar {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 600px){
+  .navbar{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.navbar > div {
+  padding: 20px;
+  color: white;
+}
+.logo {
+  padding: 20px;
+  font-size: 4em;
+  color: white;
+}
+.logo p {
+  font-family: "PT Sans", sans-serif;
+  /* font-family: "Passion One", cursive; */
+}
+.home-content {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-content h3 {
+  font-family: "Jura", cursive;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+/* End of home page styles */
+/* Start of about page styles */
+#about{
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../images/about-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* End of about page styles */
+/* Start of project page styles */
+#proj {
+  height: 70vh;
+}
+.proj-title h1 {
+  margin-top: 20px;
+  font-family: "Inter UI", Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-size: 3em  ;
+  color: #0a335c;
+  /* color: rgb(62, 165, 189); */
+  text-align: center;
+}
+.proj-info {
+  width: 640px; /*can be in percentage also.*/
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+.proj-info p {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+#contact {
+  background: cadetblue;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  /* align-content: center; */
+}
+#contact i {
+  padding-right: 15px;
+  padding-left: 15px;
 }
