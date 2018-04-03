@@ -4,6 +4,6 @@ function move(section) {
     {
       scrollTop: $(section).offset().top
     },
-    500
+    300
   );
 }

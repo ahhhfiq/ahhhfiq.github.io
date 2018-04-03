@@ -22,8 +22,8 @@ body {
   display: flex;
   justify-content: space-around;
 }
-@media screen and (max-width: 600px){
-  .navbar{
+@media screen and (max-width: 600px) {
+  .navbar {
     display: none;
   }
 }
@@ -55,7 +55,7 @@ body {
 }
 /* End of home page styles */
 /* Start of about page styles */
-#about{
+#about {
   width: 100%;
   height: 80vh;
   background: linear-gradient(
@@ -69,8 +69,8 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-.about-title{
-  padding-top:20px;
+.about-title {
+  padding-top: 20px;
   font-family: "Inter UI", Arial, Helvetica, sans-serif;
   font-variant: small-caps;
   font-size: 3em;
@@ -86,7 +86,7 @@ body {
   margin-top: 20px;
   font-family: "Inter UI", Arial, Helvetica, sans-serif;
   font-variant: small-caps;
-  font-size: 3em  ;
+  font-size: 3em;
   color: #0a335c;
   /* color: rgb(62, 165, 189); */
   text-align: center;
@@ -103,14 +103,44 @@ body {
   margin-bottom: 200px;
   text-align: center;
 }
+/* End of project page styles */
+/* Start of contact page styles */
 #contact {
-  background: cadetblue;
+  background: #5f9ea0;
 }
-.contact-title h1{
+.contact-title h1 {
   padding-top: 20px;
   font-family: "Inter UI", Arial, Helvetica, sans-serif;
   font-variant: small-caps;
-  font-size: 3em  ;
+  font-size: 3em;
   color: white;
   text-align: center;
+}
+.context {
+  text-align: center;
+  font-size: 1.375em;
+  line-height: 1.4em;
+  padding: 0 20%;
+  margin-top: 1em;
+  color: #1e4242;
+}
+.contact-details {
+  display: flex;
+  justify-content: center;
+}
+.contact-details i {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer {
+  padding: 20px;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #b4b4b4;
+}
+.footer:nth-last-of-type(p){
+
 }
