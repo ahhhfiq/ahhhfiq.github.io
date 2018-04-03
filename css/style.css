@@ -118,7 +118,6 @@ body {
 }
 .context {
   text-align: center;
-  font-size: 1.375em;
   line-height: 1.4em;
   padding: 0 20%;
   margin-top: 1em;
@@ -141,6 +140,9 @@ body {
   text-align: center;
   color: #b4b4b4;
 }
-.footer:nth-last-of-type(p){
-
+.footer p{
+  font-size: 10px;
 }
+/* .footer:nth-last-of-type(p){
+
+} */
