@@ -18,7 +18,7 @@ body {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("http://res.cloudinary.com/ahhhfiq/image/upload/v1522732846/backgroundImage.jpg");
+    url("https://res.cloudinary.com/ahhhfiq/image/upload/v1522732846/backgroundImage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -70,7 +70,7 @@ body {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("http://res.cloudinary.com/ahhhfiq/image/upload/v1522732433/about-back.jpg");
+    url("https://res.cloudinary.com/ahhhfiq/image/upload/v1522732433/about-back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
