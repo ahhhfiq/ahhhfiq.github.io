@@ -7,3 +7,7 @@ function move(section) {
     300
   );
 }
+
+function clickError() {
+  alert('Link not available');
+}
