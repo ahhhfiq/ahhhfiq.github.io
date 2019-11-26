@@ -35764,19 +35764,19 @@ $S:1}
 L.nM.prototype={
 aF:function(){return new L.Jr(C.o)}}
 L.Jr.prototype={
-J:function(a){var u,t,s,r,q,p,o,n=null,m=H.N5(a.li(C.f6),"$ieQ").f.d?L.Qb(C.nQ,C.i):U.nQ("images/moon.png",20,20),l=[N.bG]
+J:function(a){var u,t,s,r,q,p,o,n=null,m=H.N5(a.li(C.f6),"$ieQ").f.d?L.Qb(C.nQ,C.i):U.nQ("assets/images/moon.png",20,20),l=[N.bG]
 m=H.b([B.NP(n,m,new L.Js(a),n)],l)
-u=U.nQ("images/profile.jpg",n,n)
+u=U.nQ("assets/images/profile.jpg",n,n)
 t=L.ic("Muhammad Afiq",A.dp(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,1.5,n,n,n,n,n),C.bs,4)
 s=L.ic("Mobile & Backend Developer",K.ah(a).y2.z,C.bs,2)
 r=K.ah(a).y2
 r=T.Ol(n,n,C.bu,!0,n,Q.l2(H.b([Q.l2(n,A.dp(n,n,n,n,n,n,n,n,"Raleway",n,n,20,n,n,n,n,!0,n,n,n,n,n,n),"Currently studying in "),Q.l2(n,A.dp(n,n,new P.w(4293802306),n,n,n,n,n,"Raleway",n,n,20,n,n,n,n,!0,n,n,n,n,n,n),"Temasek Polytechnic")],[Q.pS]),r.y,n),C.bs,n,1,C.df)
 q=L.ic("Github",n,n,n)
-q=N.OF(new T.bN(20,20,U.nQ("images/github.png",n,n),n),q,new L.Jt())
+q=N.OF(new T.bN(20,20,U.nQ("assets/images/github.png",n,n),n),q,new L.Jt())
 p=L.ic("Repl.it",n,n,n)
-p=N.OF(new T.bN(30,30,U.nQ("images/repl-it.png",n,n),n),p,new L.Ju())
+p=N.OF(new T.bN(30,30,U.nQ("assets/images/repl-it.png",n,n),n),p,new L.Ju())
 o=L.ic("LinkedIn",n,n,n)
-o=T.Om(H.b([q,p,N.OF(new T.bN(20,20,U.nQ("images/linkedin.png",n,n),n),o,new L.Jv())],l),C.dt,C.jO,C.hI)
+o=T.Om(H.b([q,p,N.OF(new T.bN(20,20,U.nQ("assets/images/linkedin.png",n,n),n),o,new L.Jv())],l),C.dt,C.jO,C.hI)
 p=S.fb(n,n,H.b([new O.cC(0.5,P.an(51,33,150,243),new P.q(0,5),30)],[O.cC]),n,n,n,C.L)
 l=T.Up(H.b([new K.vN(u.c,150,n),new T.bN(n,20,n,n),t,new T.bN(n,20,n,n),s,new T.eB(C.nA,r,n),new T.bN(n,40,n,n),o,new T.bN(n,40,n,n),M.mZ(n,new D.kp(new L.Jw(),n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,L.ic("View my projects",H.N5(a.li(C.f6),"$ieQ").f.d?A.dp(n,n,C.i,n,n,n,n,n,n,n,n,15,n,n,n,n,!0,n,n,n,n,n,n):A.dp(n,n,C.H.i(0,200),n,n,n,n,n,n,n,n,15,n,n,n,n,!0,n,n,n,n,n,n),C.bs,n),n,n,C.aa,n,!1,n,n,n),n,n,p,n,n,n,n,n)],l),C.dt,C.eR)
 return new M.pk(new E.mz(m,new P.N(1/0,56),n),new T.fd(C.I,n,n,new E.Ft(!0,new T.fd(C.I,n,n,new T.eB(C.nB,l,n),n),n),n),n)},

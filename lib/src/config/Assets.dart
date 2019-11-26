@@ -1,9 +1,8 @@
 class Assets{
-  static const moon = 'images/moon.png';
-  static const portfolioImage = 'images/profile.jpg';
-  static const customIcon = 'fonts/CustomIcons.ttf';
-  static const replItImage = 'images/repl-it.png';
-  static const githubImage = 'images/github.png';
-  static const linkedInImage = 'images/linkedin.png';
-  static const temasekPoly = 'images/tp-logo.jpg';
+  static const moon = 'assets/images/moon.png';
+  static const portfolioImage = 'assets/images/profile.jpg';
+  static const replItImage = 'assets/images/repl-it.png';
+  static const githubImage = 'assets/images/github.png';
+  static const linkedInImage = 'assets/images/linkedin.png';
+  static const temasekPoly = 'assets/images/tp-logo.jpg';
 }
