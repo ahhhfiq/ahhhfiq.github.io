@@ -130,34 +130,34 @@ class _HomeScreenState extends State<HomeScreen> {
                   SizedBox(
                     height: 40,
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.blue.withOpacity(0.2),
-                          blurRadius: 30.0,
-                          spreadRadius: 0.5,
-                          offset: Offset(0, 5),
-                        ),
-                      ],
-                    ),
-                    child: RaisedButton(
-                      child: Text(
-                        'View my projects',
-                        textAlign: TextAlign.center,
-                        style: ThemeSwitcher.of(context).isDarkModeOn
-                            ? TextStyle(
-                                fontSize: 15,
-                                color: Colors.white,
-                              ) //Dark Theme
-                            : TextStyle(
-                                fontSize: 15,
-                                color: Colors.grey[200],
-                              ), //Light Theme
-                      ),
-                      onPressed: () => print('Uwu')
-                    ),
-                  ),
+                  // Container(
+                  //   decoration: BoxDecoration(
+                  //     boxShadow: [
+                  //       BoxShadow(
+                  //         color: Colors.blue.withOpacity(0.2),
+                  //         blurRadius: 30.0,
+                  //         spreadRadius: 0.5,
+                  //         offset: Offset(0, 5),
+                  //       ),
+                  //     ],
+                  //   ),
+                  //   child: RaisedButton(
+                  //     child: Text(
+                  //       'View my projects',
+                  //       textAlign: TextAlign.center,
+                  //       style: ThemeSwitcher.of(context).isDarkModeOn
+                  //           ? TextStyle(
+                  //               fontSize: 15,
+                  //               color: Colors.white,
+                  //             ) //Dark Theme
+                  //           : TextStyle(
+                  //               fontSize: 15,
+                  //               color: Colors.grey[200],
+                  //             ), //Light Theme
+                  //     ),
+                  //     onPressed: () => print('Uwu')
+                  //   ),
+                  // ),
                 ],
               ),
             ),
