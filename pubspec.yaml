@@ -99,7 +99,9 @@ flutter:
         weight: 200
         style: italic
       - asset: assets/fonts/Raleway/Raleway-Regular.ttf
-
+    - family: Open_Sans
+      fonts:
+        - asset: assets/fonts/Open_Sans/OpenSans-Regular.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf

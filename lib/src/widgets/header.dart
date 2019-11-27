@@ -1,19 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/src/config/Assets.dart';
-import 'package:portfolio/src/config/Url.dart';
-import 'dart:html' as html;
+import 'package:portfolio/src/widgets/responsive_widget.dart';
 
 class Header extends StatefulWidget {
   @override
   _HeaderState createState() => _HeaderState();
 }
+
+/*
+TODO: Set name to smaller font for xs screens
+*/
 class _HeaderState extends State<Header> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Center(
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: ResponsiveWidget.isLargeScreen(context)
+              ? EdgeInsets.only(top: 100.0)
+              : EdgeInsets.only(top: 10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
@@ -24,6 +29,14 @@ class _HeaderState extends State<Header> {
               SizedBox(
                 height: 20,
               ),
+              ResponsiveWidget.isExtraSmallScreen(context) ? Text(
+                'Muhammad Afiq',
+                textScaleFactor: 3,
+                style: TextStyle(
+                  letterSpacing: 1.5,
+                ),
+                textAlign: TextAlign.center,
+              ):
               Text(
                 'Muhammad Afiq',
                 textScaleFactor: 4,
@@ -69,12 +82,6 @@ class _HeaderState extends State<Header> {
                     ],
                   ),
                 ),
-              ),
-              SizedBox(
-                height: 40,
-              ),
-              SizedBox(
-                height: 40,
               ),
             ],
           ),

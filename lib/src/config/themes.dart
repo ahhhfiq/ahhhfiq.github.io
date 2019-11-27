@@ -19,6 +19,15 @@ darkTheme(context) {
     appBarTheme: AppBarTheme(
       elevation: 0.0,
     ),
+    floatingActionButtonTheme: Theme.of(context).floatingActionButtonTheme.copyWith(
+      backgroundColor: Colors.black,
+      splashColor: Colors.white30,
+      elevation: 0,
+      hoverElevation: 0,
+      disabledElevation: 0,
+      highlightElevation: 0,
+      focusElevation: 0, 
+    )
   );
 }
 
@@ -40,5 +49,14 @@ lightTheme(context) {
     appBarTheme: AppBarTheme(
       elevation: 0.0,
     ),
+    floatingActionButtonTheme: Theme.of(context).floatingActionButtonTheme.copyWith(
+      backgroundColor: Colors.white,
+      splashColor: Colors.black45,
+      elevation: 0,
+      hoverElevation: 0,
+      disabledElevation: 0,
+      highlightElevation: 0,
+      focusElevation: 0,  
+    )
   );
 }
