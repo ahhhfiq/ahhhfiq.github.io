@@ -7,9 +7,6 @@ class Header extends StatefulWidget {
   _HeaderState createState() => _HeaderState();
 }
 
-/*
-TODO: Set name to smaller font for xs screens
-*/
 class _HeaderState extends State<Header> {
   @override
   Widget build(BuildContext context) {
@@ -29,22 +26,23 @@ class _HeaderState extends State<Header> {
               SizedBox(
                 height: 20,
               ),
-              ResponsiveWidget.isExtraSmallScreen(context) ? Text(
-                'Muhammad Afiq',
-                textScaleFactor: 3,
-                style: TextStyle(
-                  letterSpacing: 1.5,
-                ),
-                textAlign: TextAlign.center,
-              ):
-              Text(
-                'Muhammad Afiq',
-                textScaleFactor: 4,
-                style: TextStyle(
-                  letterSpacing: 1.5,
-                ),
-                textAlign: TextAlign.center,
-              ),
+              ResponsiveWidget.isExtraSmallScreen(context)
+                  ? Text(
+                      'Muhammad Afiq',
+                      textScaleFactor: 3,
+                      style: TextStyle(
+                        letterSpacing: 1.5,
+                      ),
+                      textAlign: TextAlign.center,
+                    )
+                  : Text(
+                      'Muhammad Afiq',
+                      textScaleFactor: 4,
+                      style: TextStyle(
+                        letterSpacing: 1.5,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
               SizedBox(
                 height: 20,
               ),

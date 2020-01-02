@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/src/widgets/responsive_widget.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -10,39 +11,22 @@ class Body extends StatelessWidget {
           SizedBox(
             height: 40,
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Expanded(
-                child: new Container(
-                    margin: const EdgeInsets.only(left: 10.0, right: 20.0),
-                    child: Divider(
-                      color: Colors.white,
-                      height: 36,
-                    )),
-              ),
-              Text(
-                'WIP',
-                style: TextStyle(
-                  fontSize: 40,
-                  letterSpacing: 4,
-                  fontWeight: FontWeight.w100,
-                ),
-              ),
-              Expanded(
-                child: new Container(
-                    margin: const EdgeInsets.only(left: 20.0, right: 10.0),
-                    child: Divider(
-                      color: Colors.white,
-                      height: 36,
-                    )),
-              ),
-            ],
-          ),
+          wip(),
           SizedBox(
             height: 40,
           ),
         ],
+      ),
+    );
+  }
+
+  Text wip() {
+    return Text(
+      'WIP',
+      style: TextStyle(
+        fontSize: 40,
+        letterSpacing: 4,
+        fontWeight: FontWeight.w100,
       ),
     );
   }
